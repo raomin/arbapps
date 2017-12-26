@@ -111,7 +111,7 @@ class PongApp(Application):
         self.t0 = time.time()
         self.playing = True
         self.command = {'left': False, 'right': False,'left_p2': False, 'right_p2': False}  # User commands (joy/keyboard)
-        self.pong = Pong(self.arbalet.height,self.arbalet.width )
+        self.pong = Pong(self.arbalet.height,self.arbalet.width)
 
 
     def process_events(self):
